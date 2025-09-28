@@ -18,3 +18,12 @@ the app.
 Add employee opens up a new window where we get three buttons to choose the type of employee we want to add—salaried, hourly, or commission. 
 When we click on one, it instantly takes us to the specific form for that employee type. 
 <p align="center"><img src="./img/3.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
+
+AddSalariedEmployee, AddHourlyEmployee, and AddCommissionEmployee, these three classes are basically forms that let us add different types of employees. Each one opens a new window with text fields for the employee’s details. We type in employee name, ID, designation, and the relevant salary info, like monthly salary, hourly rate, or commission details. Each form has an “Add” button, and when we click it, the data goes straight into Main.uc, our main employee container and employee info get stored. The layout uses VBox and a little padding to make it look clean, and Viper.css styles everything. 
+<p align="center"><img src="./img/4.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
+<p align="center"><img src="./img/5.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
+<p align="center"><img src="./img/6.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
+
+
+
+
