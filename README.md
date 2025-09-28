@@ -24,6 +24,9 @@ AddSalariedEmployee, AddHourlyEmployee, and AddCommissionEmployee, these three c
 <p align="center"><img src="./img/5.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
 <p align="center"><img src="./img/6.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
 
+The class AddSpecificEmployeeDis lets us add a specific employee by taking their ID. When we click “OK,” it calls Main.uc.display(tfId.getText()), which handles adding or updating that employee in the main UapCse data structure. Once the operation is done, the method finishes, effectively saving the specific employee details into our main employee list.
+<p align="center"><img src="./img/7.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
+<p align="center"><img src="./img/8.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
 
 
 
