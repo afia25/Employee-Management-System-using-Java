@@ -28,5 +28,11 @@ The class AddSpecificEmployeeDis lets us add a specific employee by taking their
 <p align="center"><img src="./img/7.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
 <p align="center"><img src="./img/8.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
 
+AddIncreaseSalary class takes an employee ID and an amount we want to increase. Then it calls Main.uc.increaseSalary(id, amount) to update the employee’s salary inside the main UapCse object. If the amount is valid, the salary gets updated. But if the salary is invalid, it throws our custom InvalidSalaryException. That exception is caught, and we show an error message.
+<p align="center"><img src="./img/9.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
+<p align="center"><img src="./img/10.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
+<p align="center"><img src="./img/11.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
+
+
 
 
