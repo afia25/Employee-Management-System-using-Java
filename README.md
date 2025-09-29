@@ -21,7 +21,6 @@ When we click on one, it instantly takes us to the specific form for that employ
 
 AddSalariedEmployee, AddHourlyEmployee, and AddCommissionEmployee, these three classes are basically forms that let us add different types of employees. Each one opens a new window with text fields for the employee’s details. We type in employee name, ID, designation, and the relevant salary info, like monthly salary, hourly rate, or commission details. Each form has an “Add” button, and when we click it, the data goes straight into Main.uc, our main employee container and employee info get stored. The layout uses VBox and a little padding to make it look clean, and Viper.css styles everything. 
 <p align="center"><img src="./img/4.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
-<p align="center"><img src="./img/5.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
 <p align="center"><img src="./img/6.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
 
 The class AddSpecificEmployeeDis lets us add a specific employee by taking their ID. When we click “OK,” it calls Main.uc.display(tfId.getText()), which handles adding or updating that employee in the main UapCse data structure. Once the operation is done, the method finishes, effectively saving the specific employee details into our main employee list.
