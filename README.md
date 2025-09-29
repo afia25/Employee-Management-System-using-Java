@@ -21,20 +21,20 @@ When we click on one, it instantly takes us to the specific form for that employ
 
 AddSalariedEmployee, AddHourlyEmployee, and AddCommissionEmployee, these three classes are basically forms that let us add different types of employees. Each one opens a new window with text fields for the employee’s details. We type in employee name, ID, designation, and the relevant salary info, like monthly salary, hourly rate, or commission details. Each form has an “Add” button, and when we click it, the data goes straight into Main.uc, our main employee container and employee info get stored. The layout uses VBox and a little padding to make it look clean, and Viper.css styles everything. 
 <p align="center"><img src="./img/4.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
-<p align="center"><img src="./img/5.png" alt="App Screenshot" style="height:30 px; width:auto;"></p>
-<p align="center"><img src="./img/6.png" alt="App Screenshot" style="height:30 px; width:auto;"></p>
+<p align="center"><img src="./img/5.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
+<p align="center"><img src="./img/6.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
 
 The class AddSpecificEmployeeDis lets us add a specific employee by taking their ID. When we click “OK,” it calls Main.uc.display(tfId.getText()), which handles adding or updating that employee in the main UapCse data structure. Once the operation is done, the method finishes, effectively saving the specific employee details into our main employee list.
-<p align="center"><img src="./img/7.png" alt="App Screenshot" style="height:30 px; width:auto;"></p>
-<p align="center"><img src="./img/8.png" alt="App Screenshot" style="height:30 px; width:auto;"></p>
+<p align="center"><img src="./img/7.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
+<p align="center"><img src="./img/8.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
 
 AddIncreaseSalary class takes an employee ID and an amount we want to increase. Then it calls Main.uc.increaseSalary(id, amount) to update the employee’s salary inside the main UapCse object. If the amount is valid, the salary gets updated. But if the salary is invalid, it throws our custom InvalidSalaryException. That exception is caught, and we show an error message.
-<p align="center"><img src="./img/9.png" alt="App Screenshot" style="height:30 px; width:auto;"></p>
-<p align="center"><img src="./img/10.png" alt="App Screenshot" style="height:30 px; width:auto;"></p>
+<p align="center"><img src="./img/9.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
+<p align="center"><img src="./img/10.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
 
 The SpecificEmployeeSalary class requires us to enter an employee’s ID. When we click OK, this class takes that ID and calls Main.uc.getSalary() with it. That function checks the stored employee records inside the UapCse object. It then finds the matching employee and pulls out their salary and displays the salary in a message box.
-<p align="center"><img src="./img/11.png" alt="App Screenshot" style="height:30 px; width:auto;"></p>
-<p align="center"><img src="./img/12.png" alt="App Screenshot" style="height:30 px; width:auto;"></p>
+<p align="center"><img src="./img/11.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
+<p align="center"><img src="./img/12.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
 
 The DisplayListView class has a function called DisplayListView(). When All Employee Information button is clicked, then DisplayListView() function is called. It first clears out any old data and then loops through all employees stored in Main.uc.employees. For every employee, it displays their name, id, designation, and salary using getter methods and builds a formatted string. These strings get added to the data list, which is directly connected to the list view. 
-<p align="center"><img src="./img/13.png" alt="App Screenshot" style="height:30 px; width:auto;"></p>
+<p align="center"><img src="./img/13.png" alt="App Screenshot" style="height:200px; width:auto;"></p>
