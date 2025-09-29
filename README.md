@@ -5,7 +5,7 @@ data.txt using serialization. If there’s no data, it just starts fresh with a 
 GUI-based. From the FrontPage, we can add employees or view details. If we choose to add employees, a window pops up (AddEmployee) where we select whether we want to 
 add a salaried, hourly or commission employee. Each choice opens its own window (like AddSalariedEmployee) where add the name, ID, designation, and salary of employees. 
 Once we click add, the data gets stored inside Main.uc, the main UapCse object. Employees are modeled through their own classes—SalariedEmployee, HourlyEmployee, 
-CommissionEmployee—and there’s also InvalidSalaryException to throw error if invalid salary is entered. Data gets saved back to data.txt using serialization so nothing’s lost 
+CommissionEmployee. There’s also InvalidSalaryException to throw error if invalid salary is entered. Data gets saved back to data.txt using serialization so nothing’s lost 
 when we close the app. And to make it look nicer, the UI uses a stylesheet (Viper.css). So overall, this project is a simple desktop app where we can add, store, and manage 
 different types of employees in a simple interface. <br>
 
