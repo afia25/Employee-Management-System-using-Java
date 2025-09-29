@@ -12,8 +12,8 @@ different types of employees in a simple interface. <br>
 The front page is built with a simple JavaFX window that asks for email and password, styled with Viper.css. Once we hit the sign-in button, it opens up another window with 
 options like adding employees, checking specific salary or details, increasing salary, viewing all employees, or exiting. When we exit, it saves all the data before closing 
 the app.
-<p align="center"><img src="./img/1.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
-<p align="center"><img src="./img/2.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
+<p align="center"><img src="./img/1.png" alt="App Screenshot" style="height:50 px; width:auto;"></p>
+<p align="center"><img src="./img/2.png" alt="App Screenshot" style="height:50 px; width:auto;"></p>
 
 Add employee opens up a new window where we get three buttons to choose the type of employee we want to add—salaried, hourly, or commission. 
 When we click on one, it instantly takes us to the specific form for that employee type. 
