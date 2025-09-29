@@ -36,6 +36,5 @@ The SpecificEmployeeSalary class requires us to enter an employee’s ID. When w
 <p align="center"><img src="./img/11.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
 <p align="center"><img src="./img/12.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
 
-
-
-
+The DisplayListView class has a function called DisplayListView(). When All Employee Information button is clicked, then DisplayListView() function is called. It first clears out any old data and then loops through all employees stored in Main.uc.employees. For every employee, it displays their name, id, designation, and salary using getter methods and builds a formatted string. These strings get added to the data list, which is directly connected to the list view. 
+<p align="center"><img src="./img/13.png" alt="App Screenshot" style="height:100 px; width:auto;"></p>
